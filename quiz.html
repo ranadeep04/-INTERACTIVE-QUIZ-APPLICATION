@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Quiz Categories</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="login.html">Log in</a></li>
+      <li><a href="signup.html">Sign up</a></li>
+      <li><a href="category.html">Quiz</a></li>
+    </ul>
+  </nav>
+
+  <!-- Category Section -->
+  <section class="category-section">
+    <h2>Select a Quiz Category</h2>
+    <div class="category-buttons">
+      <button onclick="startQuiz('general')">General</button>
+      <button onclick="startQuiz('technology')">Technology</button>
+      <button onclick="startQuiz('sports')">Sports</button>
+      <button onclick="startQuiz('transport')">Transport</button>
+      <button onclick="startQuiz('others')">Others</button>
+    </div>
+  </section>
+
+  <!-- Quiz Section -->
+  <section class="quiz-section" id="quizContainer" style="display:none;">
+    <div id="questionBox"></div>
+    <div id="optionsBox"></div>
+    <button id="nextBtn" onclick="nextQuestion()">Next</button>
+  </section>
+
+  <!-- Score Feedback -->
+  <section class="result-section" id="resultSection" style="display:none;">
+    <h2>Quiz Completed!</h2>
+    <div id="score"></div>
+    <div id="feedback"></div>
+    <button onclick="reviewAnswers()">Review Answers</button>
+    <button onclick="restartQuiz()">Restart Quiz</button>
+    <div id="review" style="margin-top: 20px;"></div>
+  </section>
+
+  <script src="quiz.js"></script>
+</body>
+</html>
