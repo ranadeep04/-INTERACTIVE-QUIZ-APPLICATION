@@ -15,6 +15,8 @@ DESCRIPTION: The Quiz Application developed as part of the CodTech internship pr
 OUTPUT:
 
 ![Image](https://github.com/user-attachments/assets/7cd593bc-3218-48c9-a2ac-e080379f7f17)
+
 ![Image](https://github.com/user-attachments/assets/da885129-8b62-49df-b528-ace1be278069)
+
 ![Image](https://github.com/user-attachments/assets/5a1900b9-08ce-40ba-b0f3-bdf709cce9c7)
 
